@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4345523259476518322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4345523259476518320}
+  - component: {fileID: 4345523259476518321}
+  - component: {fileID: 4345523261211054552}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4345523259476518320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345523259476518322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4345523259476518321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345523259476518322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116fcdf98944dee46925eeb13ded694a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: f4cd893bdb1a0f049bcf65ddd8956092, type: 2}
+  - {fileID: 11400000, guid: ded4a885e8042f0419f438faf2678d6b, type: 2}
+  - {fileID: 11400000, guid: b49e33f2c7f7d6b48a6d272239207c37, type: 2}
+  - {fileID: 11400000, guid: 6621dd476c1af5541940094cbd0e333b, type: 2}
+  - {fileID: 11400000, guid: 4c2b6004cdfe7044d8f9b5895ea79b4c, type: 2}
+  - {fileID: 11400000, guid: f16984aa557d47a43ab0ca6f212b0d2c, type: 2}
+  - {fileID: 11400000, guid: 3640eb1f1e2bd4949adaf931666ce532, type: 2}
+  - {fileID: 11400000, guid: 20439456e76eaf24cb555878895b9548, type: 2}
+  - {fileID: 11400000, guid: a20fad7a01e5c3f48894919d22e7b4b6, type: 2}
+  - {fileID: 11400000, guid: 67d75e2c708a5624a9e75cb301f3d8bf, type: 2}
+  - {fileID: 11400000, guid: 889e9080e8017c743a161e00c27201cd, type: 2}
+  - {fileID: 11400000, guid: 535165ece9fa11b41879134386707cea, type: 2}
+  - {fileID: 11400000, guid: 5b9a3d0c331956a48ae2a15718039a6f, type: 2}
+  - {fileID: 11400000, guid: 44a4f33a6c8182e4c967aa5bad943e71, type: 2}
+  - {fileID: 11400000, guid: e7cc7a61b7674f14fa9f9d491cece76f, type: 2}
+  - {fileID: 11400000, guid: d8efaa4e230b44443800e6b98fa04e37, type: 2}
+  - {fileID: 11400000, guid: 8f7aba2f2a0a63d44bdd59ee67bc8900, type: 2}
+  - {fileID: 11400000, guid: bb5c7f9c15fce6c41b5287a4ca71932a, type: 2}
+  - {fileID: 11400000, guid: 795335563a740564d8c4e7437dc1033e, type: 2}
+  - {fileID: 11400000, guid: 0eddf4f72767a9c48804dd5893bf9e41, type: 2}
+  - {fileID: 11400000, guid: 50425ac643263fe4d924a034dfa867d1, type: 2}
+  - {fileID: 11400000, guid: a86e14b16778443419339fc90572f444, type: 2}
+  - {fileID: 11400000, guid: a1e274ab9692cbb4d93d78de385aa198, type: 2}
+  - {fileID: 11400000, guid: 575e6f85661cdb14e925edbd2111b486, type: 2}
+  - {fileID: 11400000, guid: 7113e1aafca412046a8caaab743cee3c, type: 2}
+  startingWave: 0
+  looping: 1
+--- !u!114 &4345523261211054552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345523259476518322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4502bbb1410c144b04979b3520a4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lasers:
+  - {fileID: 859623517293440660, guid: d4970f6ad5552ba46880f426380630e3, type: 3}
+  - {fileID: 859623517293440660, guid: 8a8ff7c3aace09b4bb924aa05c4c9f14, type: 3}
+  - {fileID: 859623517293440660, guid: deaaffd3f9fea784c8a7683c2009c619, type: 3}
+  - {fileID: 859623517293440660, guid: c8539867fde9a9a44907bb8c1184f988, type: 3}
+  - {fileID: 859623517293440660, guid: bd1d11b638b4f9f4d98192dddb4d2063, type: 3}
+  enemyShips:
+  - {fileID: 1761149222215569026, guid: 8317c48d1182229449561a5843b858d8, type: 3}
+  - {fileID: 1761149222215569026, guid: 5328e90db22b7cd4da8b164759d18672, type: 3}
+  - {fileID: 1761149222215569026, guid: 880f63f55fae18b4fa1018b7f5e8b20e, type: 3}
+  - {fileID: 6727467914378070748, guid: 419757b59d5a20d41b2693e2a2ffbba6, type: 3}
+  - {fileID: 1761149222215569026, guid: 6e972b9fcb290f64089a6ad2fab5aa0c, type: 3}
+  - {fileID: 1761149222215569026, guid: 7489e8db36fe53545914c8c579bf635e, type: 3}
+  - {fileID: 1761149222215569026, guid: e872c50cd63bd674c80a2add04b6a357, type: 3}
+  - {fileID: 1761149222215569026, guid: 2e0367f8bdab0e740b7b154680bc4a91, type: 3}
+  - {fileID: 1761149222215569026, guid: 2dfe5b1c0f935c740a56626fb92b78b8, type: 3}
+  - {fileID: 1761149222215569026, guid: 2e50621759cd7b4468e92d3d72cd76e1, type: 3}
+  - {fileID: 1761149222215569026, guid: d785a7ecd4369934e8cc57aca6bb2587, type: 3}
+  - {fileID: 1761149222215569026, guid: 0ad54d3d0e808da44ba3fa04a02e24b3, type: 3}
+  - {fileID: 1761149222215569026, guid: f76544e427641f244835c8364e549560, type: 3}
+  EnemyDamageIncrement: 10
+  difficultyHealthIncrease: 10
+  projectileSpeedIncrease: 0.2

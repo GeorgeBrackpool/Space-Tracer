@@ -1,0 +1,13 @@
+Things to change for when you migrate to WebGL Version.
+
+Scene Start menu - Disabled Google Play UI, Disabled CloudOnce Services Prefab.
+
+Scene How to Menu - Enable the how to play PC text and image prefabs. Disable the touch text and image prefabs.
+
+Scene How to Menu Page 3 - enable the speed up text and image and adjust font sizes.
+
+Scene Settings -
+
+Scene Game - Enable Movement Script on the Player, on main camera prefab add the movement speed power up. On main camera disable the achievement manager.
+
+Scene Game over - In the gameover.cs script at line 10 comment out the cloudonce upload. Remove the Achievements and leaderboard UI. Disable achievement manager on camera

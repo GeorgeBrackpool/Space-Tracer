@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Invulnerability PowerUp
+  - Gun PowerUp
+  - Speed PowerUp
+  - Enemy Projectile
+  - Enemy
+  - EnemyFinalBoss
+  - EnemyBomb1
+  - EnemyBomb3
+  - EnemyBomb2
+  - EnemyBomb4
+  - EnemyBoss1
+  - EnemyBoss2
+  - EnemyBoss3
+  - EnemyBoss4
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Player Projectile
+  - Enemy Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Projectiles
+    uniqueID: 2901667987
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
