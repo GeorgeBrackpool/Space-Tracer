@@ -40,7 +40,7 @@ public class ratefirePowerUp : MonoBehaviour
     
       
       
-            playerMaxRate.maxTimeBetweenShots = 0.6f;
+            playerMaxRate.maxTimeBetweenShots = 0.4f;
             playerMinRate.minTimeBetweenShots = 0.2f;
            
       yield return new WaitForSeconds(duration);

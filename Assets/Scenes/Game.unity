@@ -165,6 +165,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b221f2f43875f094e9507d13605ae35e, type: 3}
   - {fileID: 8300000, guid: 9f29b549b67cf404ab23fa598cb4130c, type: 3}
   - {fileID: 8300000, guid: 0365a76ed8cd80a4f972c23ec9090809, type: 3}
+  - {fileID: 8300000, guid: 0d88e84510ff23e4090a186617d49bac, type: 3}
+  - {fileID: 8300000, guid: 6c87d0107df66024a8001d45dd44e8e3, type: 3}
   volume: 0.5
 --- !u!1 &609438124
 GameObject:
@@ -1944,8 +1946,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4345523261211054552, guid: 11c35a1cb1e9f9646aa18f6a99123b10, type: 3}
+      propertyPath: EnemyDamageIncrement
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4345523261211054552, guid: 11c35a1cb1e9f9646aa18f6a99123b10, type: 3}
       propertyPath: enemyShips.Array.size
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4345523261211054552, guid: 11c35a1cb1e9f9646aa18f6a99123b10, type: 3}
+      propertyPath: projectileSpeedIncrease
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4345523261211054552, guid: 11c35a1cb1e9f9646aa18f6a99123b10, type: 3}
+      propertyPath: difficultyHealthIncrease
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4345523261211054552, guid: 11c35a1cb1e9f9646aa18f6a99123b10, type: 3}
       propertyPath: enemyShips.Array.data[1]

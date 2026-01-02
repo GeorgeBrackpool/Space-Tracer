@@ -8,7 +8,7 @@ public class LevelLoading : MonoBehaviour
     GameSession gameSession;
  public static bool firstTime = true;
  public static bool FirstTime { get { return firstTime; } set { firstTime  = value; } }
-   [SerializeField] float timeDelaySeconds = 2f;
+   [SerializeField] float timeDelaySeconds = 0f;
   public void LoadStartMenu()
   {
       SceneManager.LoadScene(0);
