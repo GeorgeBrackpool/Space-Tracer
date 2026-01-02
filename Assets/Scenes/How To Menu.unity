@@ -356,6 +356,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd05aeda927c5584692bffe1a29a6843, type: 3}
+--- !u!1 &629454539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629454540}
+  - component: {fileID: 629454542}
+  - component: {fileID: 629454541}
+  m_Layer: 0
+  m_Name: Player_Sprite_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &629454540
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629454539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 404777696944625254}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 12, y: 485}
+  m_SizeDelta: {x: 309.5166, y: 309.5166}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &629454541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629454539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cdb068dc738a8914f9ace980facb73a6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &629454542
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629454539}
+  m_CullTransparentMesh: 1
 --- !u!1001 &860317531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -444,7 +519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213301706716011802, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -128
+      value: -171
       objectReference: {fileID: 0}
     - target: {fileID: 3252260543124981027, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_SizeDelta.x
@@ -452,24 +527,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3252260543124981027, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 141.48
+      value: 161.34
       objectReference: {fileID: 0}
     - target: {fileID: 3252260543124981027, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0023584
+      value: 0.0088721
       objectReference: {fileID: 0}
     - target: {fileID: 3252260543124981027, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -453
+      value: -454
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402951133448220918, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
+      propertyPath: m_text
+      value: To move the ship use the arrow keys or A and D on the keyboard to move
+        the ship left and right to dodge obstacles and enemies! Your main laser turret
+        will occasionally shoot automatically.
       objectReference: {fileID: 0}
     - target: {fileID: 3402951133448220918, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_fontSize
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3402951133448220918, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
+      propertyPath: m_margin.w
+      value: -68.63498
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402951133448220918, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_fontSizeBase
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 7144549033812396772, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: e1737117dea2e2d458c101846044e1f4, type: 3}
     - target: {fileID: 7878274838530403757, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -556,9 +645,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8004575796170036607, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 629454540}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
+--- !u!224 &404777696944625254 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8004575796170036607, guid: af1d65aa7f783924e91af78151f69c45, type: 3}
+  m_PrefabInstance: {fileID: 404777696944625253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

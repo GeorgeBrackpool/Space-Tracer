@@ -8,7 +8,7 @@ public class GameOver : MonoBehaviour
     private void Awake() {
         gameSession = FindObjectOfType<GameSession>();
          // If on Android uncomment the next line. 
-         CloudOnceServices.instance.SubmitScoreToLeaderboard(gameSession.GetScore());
+         //CloudOnceServices.instance.SubmitScoreToLeaderboard(gameSession.GetScore());
     }
     // Start is called before the first frame update
     void Start()

@@ -233,7 +233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.75, y: -68}
+  m_AnchoredPosition: {x: -12.75, y: -133}
   m_SizeDelta: {x: 697.794, y: 193.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &115781558
@@ -335,7 +335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: 230}
+  m_AnchoredPosition: {x: 60, y: 201}
   m_SizeDelta: {x: 1025.097, y: 238.401}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &190062920
@@ -643,7 +643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &433680258
 RectTransform:
   m_ObjectHideFlags: 0
@@ -794,7 +794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5178077405863879207, guid: 439c0f11f20567140b3255cf89a121b4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -836,7 +836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.91, y: -296}
+  m_AnchoredPosition: {x: -10.91, y: -394}
   m_SizeDelta: {x: 985.63, y: 168.992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &794966739
@@ -1515,7 +1515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.91, y: -494}
+  m_AnchoredPosition: {x: -10.91, y: -671}
   m_SizeDelta: {x: 985.63, y: 168.992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725718673
@@ -1599,7 +1599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1987151218
 RectTransform:
   m_ObjectHideFlags: 0
