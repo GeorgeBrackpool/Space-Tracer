@@ -61,6 +61,8 @@ An indie game developer and software engineer with a background spanning full-st
 
 ## 🔗 Links
 
-*   [Google Play Store Storefront](#) *(https://play.google.com/store/apps/details?id=com.GBrackpool.SpaceTracer&hl=en_GB)*
-*   [Portfolio Website](#) *(https://georgebrackpool.github.io/Portfolio-George-Brackpool/)*
-*   [GitHub Profile](#) *(https://github.com/GeorgeBrackpool)*
+*   [Google Play Store Storefront](https://play.google.com/store/apps/details?id=com.GBrackpool.SpaceTracer&hl=en_GB) *(https://play.google.com/store/apps/details?id=com.GBrackpool.SpaceTracer&hl=en_GB)*
+*   [Itch.io WebGL Link](https://gbrackpool.itch.io/space-tracer) (https://gbrackpool.itch.io/space-tracer)
+*   [Portfolio Website](https://georgebrackpool.github.io/Portfolio-George-Brackpool/) *(https://georgebrackpool.github.io/Portfolio-George-Brackpool/)*
+*   [GitHub Profile](https://github.com/GeorgeBrackpool) *(https://github.com/GeorgeBrackpool)*
+
